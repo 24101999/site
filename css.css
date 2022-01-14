@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    background-image: url(wordpress-923188.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+.basic-modal {
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal-modal {
+    background-image: url(wordpress-923188.jpg);
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-modal {
+    background-image: url(wordpress-923188.jpg);
+    background-size: cover;
+    height: 615px;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.basic-modal.at {
+    top: 58.5rem;
+    height: 102%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.normal-modal.aa {
+    top: 58.5rem;
+    height: 102%;
+    display: flex;
+}
+
+.pro-modal.ae {
+    top: 58.5rem;
+    height: 102%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-basic {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 0.6rem;
+    border: solid 1px black;
+    padding: 1rem;
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+}
+
+.form-basic input {
+    width: 70%;
+    background: none;
+    border: solid 1px;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.form-basic button {
+    height: 30px;
+    width: 40%;
+    background: none;
+    border: solid 1px;
+    border-radius: 3px;
+}
+
+.form-basic h1 {
+    color: #fff;
+}
+
+.form-basic ::placeholder {
+    color: rgb(66, 66, 66);
+}
+
+.button p {
+    color: #fff;
+}
+
+.button {
+    background: none;
+    border: none;
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
+    left: 0;
+}
+
+.input-form.a {
+    border: solid 1px red;
+    background: rgba(255, 0, 0, 0.205);
+}
+
+@media (max-width: 580px) {
+    .form-basic ::placeholder {
+        color: #fff;
+    }
+    .form-basic {
+        width: 80%;
+    }
+    .button-input {
+        color: #fff;
+    }
+}
