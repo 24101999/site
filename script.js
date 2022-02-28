@@ -6,8 +6,6 @@ const bbb = document.getElementById('b')
 const ccc = document.getElementById('c')
 const bg = document.getElementById('res')
 const bgg = document.querySelectorAll('.res')
-const tog = document.querySelector('.nav-filter')
-const blk = document.querySelector('.blk')
 const preto = document.querySelector('.preto')
 const clos = document.querySelector('.closed')
 
@@ -23,16 +21,6 @@ clos.addEventListener('click', () => {
     preto.classList.remove('a')
 })
 
-
-tog.addEventListener('click', () => {
-    const x = tog.classList.toggle('active')
-    if (x) {
-        blk.style.display = "block"
-
-    } else {
-        blk.style.display = "none"
-    }
-})
 
 op.forEach(function(a, b, c) {
     c.forEach(function(x, y, z) {

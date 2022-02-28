@@ -61,27 +61,6 @@ header {
     cursor: pointer;
 }
 
-.blk {
-    height: 30rem;
-    width: 20rem;
-    position: absolute;
-    left: 0;
-    background-color: #fff;
-    display: none;
-}
-
-.nav-filter {
-    height: 30px;
-    width: 30px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 3px;
-    position: absolute;
-    left: 0;
-}
-
 .filter {
     height: 2px;
     width: 100%;
