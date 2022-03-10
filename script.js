@@ -8,11 +8,42 @@ const bg = document.getElementById('res')
 const bgg = document.querySelectorAll('.res')
 const preto = document.querySelector('.preto')
 const clos = document.querySelector('.closed')
+const set = document.querySelector('.set')
+const setA = document.querySelector('.set-a')
 
 const input = document.querySelector('.input-form')
-const w = window.screenY / 2
-const sc = innerHeight
+const w = window.addEventListener('scroll', () => {
 
+})
+const loop = () => {
+    setInterval(() => {
+        bg.classList.add('a')
+        bg.classList.remove('aa')
+        bg.classList.remove('aaa')
+    }, 2000);
+    setInterval(() => {
+        bg.classList.add('aa')
+        bg.classList.remove('a')
+        bg.classList.remove('aaa')
+    }, 4000);
+    setInterval(() => {
+        bg.classList.add('aaa')
+        bg.classList.remove('a')
+        bg.classList.remove('aa')
+    }, 6000);
+}
+loop()
+
+// for (let index = 0 && loop(); index == 0;) {
+//     loop() += 1
+
+// }
+
+
+
+// setTimeout(() => {
+//     third()
+// }, 1000);
 setTimeout(() => {
     preto.classList.add('a')
 }, 2000);
@@ -40,7 +71,7 @@ op.forEach(function(a, b, c) {
 topo.addEventListener('click', function() {
     window.scrollTo(0, 0)
 })
-if (w) {
+if (w == innerHeight / 2) {
     topo.style.display = 'none'
 } else {
     topo.style.display = 'block'
@@ -60,6 +91,33 @@ bl.forEach(function(x, c, s) {
 
 })
 
+const a = () => {
+    bg.classList.remove('a')
+}
+const b = () => {
+    bg.classList.remove('aa')
+}
+const c = () => {
+    bg.classList.remove('aaa')
+}
+const x = () => {
+    bg.classList.add('a')
+}
+const y = () => {
+    bg.classList.add('aa')
+}
+const z = () => {
+    bg.classList.add('aaa')
+}
+const end = () => {
+    k()
+}
+const tr = () => {
+    z()
+    bg.classList.remove('aa')
+    bg.classList.remove('a')
+
+}
 aaa.addEventListener('click', function() {
     bg.classList.add('a')
     bg.classList.remove('aa')
@@ -75,3 +133,48 @@ ccc.addEventListener('click', function() {
     bg.classList.remove('aa')
     bg.classList.remove('a')
 })
+
+
+const l = () => {
+    setA.addEventListener('click', () => {
+        y()
+        a()
+        c()
+    })
+}
+
+const k = () => {
+    z()
+    a()
+    c()
+}
+
+setA.addEventListener('click', () => {
+    bg.classList.add('a')
+    bg.classList.remove('aa')
+    bg.classList.remove('aaa')
+
+})
+setA.addEventListener('click', () => {
+    l()
+})
+setA.addEventListener('click', () => {
+        end()
+    })
+    // setA.addEventListener('click', () => {
+    //         tr()
+    //     })
+    // setA.addEventListener('click', () => {
+    //     bg.classList.add('a')
+
+// })
+// setA.addEventListener('click', () => {
+//     bg.classList.add('aa')
+//     bg.classList.remove('a')
+//     bg.classList.remove('aaa')
+// })
+// setA.addEventListener('click', () => {
+//     bg.classList.add('aaa')
+//     bg.classList.remove('aa')
+//     bg.classList.remove('a')
+// })

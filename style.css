@@ -8,6 +8,64 @@ header {
     background-position: center;
 }
 
+.set {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 14rem;
+    left: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.set-a {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 14rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.set-f-a {
+    cursor: pointer;
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    transform: rotate(134deg);
+    top: -12px;
+}
+
+.set-f-b {
+    cursor: pointer;
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+.set-f {
+    cursor: pointer;
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    transform: rotate(134deg);
+    top: 12px;
+}
+
+.set-f-1 {
+    cursor: pointer;
+    height: 20px;
+    width: 3px;
+    background: black;
+    position: absolute;
+    transform: rotate(45deg);
+}
+
 .xr {
     height: 300px;
     ;
@@ -278,6 +336,7 @@ a {
     transition: 0.4s;
     background-repeat: no-repeat;
     border-radius: 5px;
+    position: relative;
 }
 
 .res.a {
