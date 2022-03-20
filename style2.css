@@ -8,6 +8,65 @@ header {
     background-position: center;
 }
 
+.xr {
+    height: 300px;
+    ;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(255 0 0 / 0%) 5px;
+    border-radius: 5px;
+    background: none;
+}
+
+.xrf {
+    border: solid #57205a2e 7px;
+    height: 290px;
+    ;
+    width: 290px;
+    background-color: rgb(245, 245, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background: none;
+    color: #FFF;
+    backdrop-filter: blur(5px);
+}
+
+.preto {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    left: 0;
+    display: none;
+    right: 0;
+    height: 100%;
+    background-color: #000000b8;
+    align-items: center;
+    justify-content: center;
+}
+
+.preto.a {
+    display: flex;
+}
+
+.preto p {
+    color: #fff;
+    position: absolute;
+    align-self: baseline;
+    cursor: pointer;
+}
+
+.filter {
+    height: 2px;
+    width: 100%;
+    background-color: aqua;
+}
+
 .fiot {
     display: none;
     flex-direction: column;
@@ -76,6 +135,7 @@ nav :hover {
     display: flex;
     gap: 1rem;
     justify-content: center;
+    align-items: center;
 }
 
 .ded-block {
